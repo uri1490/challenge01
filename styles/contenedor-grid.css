@@ -1,6 +1,6 @@
 
-@import url("styles/animacion.css");
-@import url("styles/caja-main.css");
+@import url("animacion.css");
+@import url("caja-main.css");
 
 .contenedor_encriptador{
     display: grid;
