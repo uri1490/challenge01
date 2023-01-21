@@ -1,0 +1,74 @@
+.caja_resultado{
+    display: flex;
+    flex-direction: column;
+    background:rgba(230, 230, 238, 0.2);
+    /* background: #343838; */
+    grid-area: resultado;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem;
+}
+
+.imagen_resultado{
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+}
+.etiqueta_texto{
+    color:#00FFF5;
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
+}
+#resultado_Sinmensaje{
+    color:#00FFF5;
+    font-family: 'Geostar Fill',sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    background: #000;
+    width: 90%;
+    height: 2rem;
+    border-radius: .5rem;
+    resize: none;
+    border: 1px solid #00dffc;
+}
+::-webkit-scrollbar{
+    background: #00FFF5;
+    width: 13px;
+    border-radius: .3rem;
+ }
+ ::-webkit-scrollbar-thumb{
+     background: #343838;
+     width: 15px;
+     border-radius: .3rem;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+     background-color: rgb(81, 8, 197);
+ }
+ 
+ ::-webkit-scrollbar-thumb:active{
+     background-color: rgb(207, 18, 18);
+ }
+.explorador{
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+}
+.gero{
+    width: 24rem;
+    border-radius: .5rem;
+    
+}
+.caja_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje_advertencia{
+    display: flex;
+    
+    align-items: center;
+}
+
+

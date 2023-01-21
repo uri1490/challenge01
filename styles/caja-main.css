@@ -1,0 +1,39 @@
+@import url("/styles/caja-encriptador.css");
+@import url("/styles/caja-resultado.css");
+.caja_main{
+    display: grid;
+    height: 100%;
+    gap: .3rem;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "encriptador"
+    "resultado"
+    ;
+}
+
+@media all and (min-width: 768px) {
+    .caja_main{
+        height: 100%;
+        gap: .3rem;
+        grid-template-rows: 2fr 1fr;
+        grid-template-areas: 
+        "encriptador" 
+        "resultado"
+        ;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .caja_main{
+        height: 100%;
+        gap: .3rem;
+        grid-template-rows: none;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "encriptador resultado"
+        ;
+    }
+}
+/* 768-1174 */
+/* 1440-1024 */
+/* 375-933 */

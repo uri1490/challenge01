@@ -1,0 +1,125 @@
+.caja_encriptador{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   background:rgba(230, 230, 238, 0.2);
+   /* background:rgba(230, 230, 238, 0.45); */
+    /* background: #343838; */
+    border-radius: 1rem;
+    grid-area: encriptador;
+    padding: .3rem;
+}
+.logoA{
+
+    width: 1.5rem;
+    height: 2rem;
+    margin: 1rem 1rem 0;
+    animation: animacionLogo 4s infinite linear;
+}
+.imgC{
+    filter: drop-shadow(0 0 1px rgb(16, 216, 252)) drop-shadow(0 0 1px rgb(6, 160, 180));
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .btn{
+    margin: .2rem;
+    font-weight: bold;
+    border: .1rem solid #000;
+    border-radius: 6px;
+    width: 16rem;
+    height: 2.5rem;
+    background-color: #343838;
+   /*  background-color: #343838; */
+    color: #005f6b;
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+ }
+.restriccion{
+    color:#00FFF5;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.caja_input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* border-style: dashed;
+border-width: 1px; */
+}
+.input-texto{
+    margin-top: 1rem;
+    width: 90%;
+    box-sizing:border-box;
+    outline: none;
+   /*  background: #343838; */
+    background: #000;
+    color: rgb(29, 201, 201);
+    text-shadow:#00b4cc;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: .3rem;
+    border: 1px solid #000;
+    font-size: 2rem;
+}
+.caja_input span{
+    top: 2rem;
+    position: absolute;
+    color: #4FBDBA;
+    /* left: 0; */
+    pointer-events: none;
+    /* font-size: 1rem; */
+    transition: .5s;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.input-texto:valid~span,
+.input-texto:focus~span{
+    color: #00dffc;
+    transform: translateX(1px) translateY(-25px);
+    font-size: .9em;
+    padding: 0 10px;
+    background: #000;
+    border-left: 1px solid #00dffc;
+    border-right: 1px solid #00dffc;
+}
+.input-texto:valid,.input-texto:focus{
+    border: 1px solid #00dffc;
+}
+.btn:active{
+    color: #00b4cc;
+    box-shadow: 0 0 20px #25abd9;
+    cursor: pointer;
+    border: 1px solid #00dffc;
+}
+@media(any-hover:hover){
+    .btn:hover{
+        /* background: #25abd9;*/ 
+        color: #00b4cc;
+        box-shadow: 0 0 20px #25abd9;
+        transition: 1s;
+        cursor: pointer;
+        border: 1px solid #00dffc;
+    }
+}    
+@keyframes animacionLogo{
+    0%{
+        filter: drop-shadow(0 0 0px rgb(16, 216, 252)) drop-shadow(0 0 0px rgb(6, 160, 180));
+    }
+    25%{
+        filter: drop-shadow(0 0 7px rgb(16, 216, 252)) drop-shadow(0 0 1px rgb(6, 160, 180));
+    }
+    50%{
+        filter: drop-shadow(0 0 15px rgb(16, 216, 252)) drop-shadow(0 0 3px rgb(6, 160, 180));
+    }
+    25%{
+        filter: drop-shadow(0 0 7px rgb(16, 216, 252)) drop-shadow(0 0 1px rgb(6, 160, 180));
+    }
+    0%{
+        filter: drop-shadow(0 0 0px rgb(16, 216, 252)) drop-shadow(0 0 0px rgb(6, 160, 180));
+    }
+} 

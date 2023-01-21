@@ -1,0 +1,17 @@
+
+@import url("/styles/animacion.css");
+@import url("/styles/caja-main.css");
+
+.contenedor_encriptador{
+    display: grid;
+    height: 90%;
+    width: 90%;
+    gap:.3rem;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas: 
+    "titulo" 
+    "cuerpo"
+    "pie" 
+    ;
+}
+
