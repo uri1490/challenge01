@@ -1,5 +1,5 @@
-@import url("/styles/caja-encriptador.css");
-@import url("/styles/caja-resultado.css");
+@import url("styles/caja-encriptador.css");
+@import url("styles/caja-resultado.css");
 .caja_main{
     display: grid;
     height: 100%;
