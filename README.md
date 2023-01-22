@@ -27,21 +27,21 @@ Requerimientos:
 Extras:
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
--Aplicacion final-
+#-Aplicacion final-
 
-- Inicio de la aplicacion
+#- Inicio de la aplicacion
 ![Imagen inicio]
 (https://github.com/uri1490/challenge01/blob/main/reto-01.png)
 
-- Funcionalidad de la aplicacion
+#- Funcionalidad de la aplicacion
 ![Imagen funcionalidad]
-https://github.com/uri1490/challenge01/blob/main/inicio3.png
+(https://github.com/uri1490/challenge01/blob/main/inicio3.png)
 
-- Error en caso de campos vacios
+#- Error en caso de campos vacios
 ![Imagen error]
 (https://github.com/uri1490/challenge01/blob/main/error.png)
 
-- Aplicacion responsiva
+#- Aplicacion responsiva
 ![Imagen responsivo]
 (https://github.com/uri1490/challenge01/blob/main/responsivo.png)
 
