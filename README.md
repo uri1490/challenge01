@@ -1,24 +1,21 @@
-# challenge01
-aplicación que encripta textos, https://uri1490.github.io/challenge01/
+# Challenge-Oracle-One 01 :technologist:
 
-Challenge-Oracle-One
-
-Aplicacion que se encarga de encriptar y desencriptar textos.
+ - **Descripción:** Aplicacion que se encarga de encriptar y desencriptar textos. :computer:
 
 
-Las "llaves" de encriptación que se utilixan son las siguientes:
+     - Las "llaves" de encriptación que se utilixan son las siguientes: :key:
+        ```
+        La letra "e" es convertida para "enter"
+        La letra "i" es convertida para "imes"
+        La letra "a" es convertida para "ai"
+        La letra "o" es convertida para "ober"
+        La letra "u" es convertida para "ufat"
+        ```
+        > Por ejemplo:
+        "gato" => "gaitober"
+        gaitober" => "gato"
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
-
-Por ejemplo:
-"gato" => "gaitober"
-gaitober" => "gato"
-
-Requerimientos:
+***Requerimientos:*** :clipboard:
 - Debe funcionar solo con letras minúsculas
 - No deben ser utilizados letras con acentos ni caracteres especiales
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
@@ -27,21 +24,21 @@ Requerimientos:
 Extras:
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-#Aplicacion final
-
-#- Inicio de la aplicacion
-![Imagen inicio]
-(https://github.com/uri1490/challenge01/blob/main/reto-01.png)
-
-#- Funcionalidad de la aplicacion
-![Imagen funcionalidad]
-(https://github.com/uri1490/challenge01/blob/main/inicio3.png)
-
-#- Error en caso de campos vacios
-![Imagen error]
-(https://github.com/uri1490/challenge01/blob/main/error.png)
-
-#- Aplicacion responsiva
-![Imagen responsivo]
-(https://github.com/uri1490/challenge01/blob/main/responsivo.png)
-
+## Aplicacion final :flying_saucer:
+  * **Link:** https://uri1490.github.io/challenge01/*
+```
+Inicio de la aplicación
+```
+![Imagen inicio](https://github.com/uri1490/challenge01/blob/main/reto-01.png)
+```
+Funcionalidad de la aplicación
+```
+![Imagen funcionalidad](https://github.com/uri1490/challenge01/blob/main/inicio3.png)
+```
+Error en caso de campos vacios
+```
+![Imagen error](https://github.com/uri1490/challenge01/blob/main/error.png)
+```
+Aplicación responsiva
+```
+![Imagen responsivo](https://github.com/uri1490/challenge01/blob/main/responsivo.png)
